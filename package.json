@@ -1,7 +1,30 @@
 {
-  "name": "my-v0-project",
+  "name": "shadcn-ui-component-library",
   "version": "0.1.0",
-  "private": true,
+  "description": "Free, open-source UI component library built with shadcn/ui, Radix UI, Tailwind CSS, and Next.js",
+  "keywords": [
+    "shadcn-ui",
+    "tailwindcss",
+    "react",
+    "nextjs",
+    "ui-components",
+    "design-system",
+    "radix-ui",
+    "component-library",
+    "typescript",
+    "nextjs-template"
+  ],
+  "author": {
+    "name": "Avinash Sangle",
+    "url": "https://avinashsangle.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avisangle/design-system-showcase"
+  },
+  "homepage": "https://templates.avinashsangle.com",
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "build": "next build",
     "dev": "next dev",

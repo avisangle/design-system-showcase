@@ -12,9 +12,39 @@ const _ibmPlexMono = V0_Font_IBM_Plex_Mono({ subsets: ['latin'], weight: ["100",
 const _lora = V0_Font_Lora({ subsets: ['latin'], weight: ["400","500","600","700"] })
 
 export const metadata: Metadata = {
-  title: 'Design System Showcase',
-  description: 'A comprehensive showcase of UI components built with shadcn/ui',
+  title: 'Shadcn UI Components - Free Tailwind CSS Component Library | Next.js Template',
+  description: 'Free, open-source UI component library built with shadcn/ui, Radix UI, Tailwind CSS, and Next.js. Copy-paste accessible React components for modern web applications.',
+  keywords: ['shadcn ui', 'tailwind css', 'react components', 'nextjs', 'ui library', 'design system', 'radix ui', 'free ui kit', 'component library', 'nextjs template', 'typescript', 'open source'],
+  authors: [{ name: 'Avinash Sangle', url: 'https://avinashsangle.com' }],
+  creator: 'Avinash Sangle',
+  publisher: 'Avinash Sangle',
   generator: 'v0.app',
+  metadataBase: new URL('https://templates.avinashsangle.com'),
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://templates.avinashsangle.com',
+    title: 'Shadcn UI Components - Free Tailwind CSS Component Library',
+    description: 'Free React component library with shadcn/ui, Radix UI, and Tailwind CSS. Production-ready, accessible components.',
+    siteName: 'Shadcn UI Component Library',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Shadcn UI Components - Free Tailwind CSS Library',
+    description: 'Free, open-source React component library with shadcn/ui and Tailwind CSS',
+    creator: '@avi_sangle',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   icons: {
     icon: [
       {
